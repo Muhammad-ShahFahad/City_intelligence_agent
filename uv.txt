@@ -1,0 +1,4 @@
+Using uv with pip install 
+"uv is the package manager, so it doesn’t belong in requirements.txt. Install it separately, then use it to install the packages:"
+"powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex""
+streamlit>=1.40,<2
